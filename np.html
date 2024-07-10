@@ -1,9 +1,9 @@
-<!doctype html>
-
-
-
-
-Product Catalog
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Product Catalog</title>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css" />
 <style>
   body {
@@ -38,10 +38,8 @@ Product Catalog
   }
 
   .item img {
-    width: auto;
-    height: auto;
-    max-width: 100%;
-    max-height: 100%;
+    width: 100%;
+    height: 100%;
     object-fit: cover;
     transition: transform 0.3s ease; /* Animasi efek scaling */
   }
@@ -50,30 +48,30 @@ Product Catalog
     transform: scale(1.1); /* Memperbesar gambar saat dihover */
   }
 </style>
-
-
+</head>
+<body>
 <div class="product-catalog">
   <div class="row">
     <div class="item">
-      <a href="gambar1.jpg" data-fancybox="gallery">
-        <img src="https://glints.com/id/lowongan/wp-content/uploads/2023/11/927AD5F2-9646-427E-BD75-E1E5EB5C77E6.jpeg" alt="Gambar 1" />
+      <a data-fancybox="gallery" href="gambar1.jpg">
+        <img src="https://glints.com/id/lowongan/wp-content/uploads/2023/11/927AD5F2-9646-427E-BD75-E1E5EB5C77E6.jpeg" alt="Gambar 1">
       </a>
     </div>
     <div class="item">
-      <a href="gambar2.jpg" data-fancybox="gallery">
-        <img src="https://glints.com/id/lowongan/wp-content/uploads/2023/11/927AD5F2-9646-427E-BD75-E1E5EB5C77E6.jpeg" alt="Gambar 2" />
+      <a data-fancybox="gallery" href="gambar2.jpg">
+        <img src="https://glints.com/id/lowongan/wp-content/uploads/2023/11/927AD5F2-9646-427E-BD75-E1E5EB5C77E6.jpeg" alt="Gambar 2">
       </a>
     </div>
   </div>
   <div class="row">
     <div class="item">
-      <a href="gambar3.jpg" data-fancybox="gallery">
-        <img src="gambar3.jpg" alt="Gambar 3" />
+      <a data-fancybox="gallery" href="gambar3.jpg">
+        <img src="https://glints.com/id/lowongan/wp-content/uploads/2023/11/927AD5F2-9646-427E-BD75-E1E5EB5C77E6.jpeg" alt="Gambar 3">
       </a>
     </div>
     <div class="item">
-      <a href="gambar4.jpg" data-fancybox="gallery">
-        <img src="gambar4.jpg" alt="Gambar 4" />
+      <a data-fancybox="gallery" href="gambar4.jpg">
+        <img src="https://glints.com/id/lowongan/wp-content/uploads/2023/11/927AD5F2-9646-427E-BD75-E1E5EB5C77E6.jpeg" alt="Gambar 4">
       </a>
     </div>
   </div>
@@ -81,5 +79,5 @@ Product Catalog
 
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js"></script>
-
-</!doctype>
+</body>
+</html>
